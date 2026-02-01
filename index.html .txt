@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #f8cdda, #f5f7fa);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Georgia", serif;
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 18px;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+      color: #c9184a;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 12px 22px;
+      border: none;
+      border-radius: 25px;
+      background-color: #c9184a;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #a4133c;
+    }
+
+    #message {
+      margin-top: 20px;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Happy Birthday Sahal 🤍</h1>
+
+    <p>
+      To someone who is gentle, kind, calm, and composed 😌..ee ezhuth cringe aai povo last nn arillato😅.. B'day aait nthelum special aait cheyyanm nn vijarich ezhuthi thudangiye ahney..Munne choyche pala questns nte answr njn sherikkum ithil paryaan aai irunne aairunu, athuoke already paranj poyond inipo ivde ntha puthiyath aait parayaan ulle nn enk arilla😅 
+    </p>
+   <p>
+      Athond njn pothuve parayaathe or express cheyyathe kurech kaaryangal ivde parayam😬..Nee enne eppozhum nthoram ahn comfortable aakne nn ariyo, kunj kaaryngal ahvum bt athil koode kittiye support cheruth onnum alla.. lyk oru example parayye aahnel nte ee adressing issue il thanne eduth nokiye😌.. Pinne veetil nthelum kalyanm discussion verumbho though nee tensed aahnelum, njn ohky alle nn anveshikane oke kelkumbho ntho bhangara sandosham ahney🥺 
+   </p>  
+   <p> 
+	Also, i hope nammuk ennum idhe pole thanne happie aai munnot orumich vibe adich povaan pattate, orumich kure travel cheyyanum, pinne most importandly, nee aagrahiche kind of job and position vegam kittan saadhikatte😇 
+   </p>
+  <p>
+      You make everything feel a little calmer, a little warmer,
+      just by being you.
+    </p>
+
+    <button onclick="showMessage()">Povalle, oru kaarym koode ind parayaan, ivde click cheyyu 😁</button>
+
+    <p id="message"></p>
+  
+</div>
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerText =
+        "Ennak ungale romba pudichiruku. idh njn epozhum paryanm nn illa, so, yaa i love you today, and always. 💕";
+    }
+  </script>
+
+</body>
+</html>
+
